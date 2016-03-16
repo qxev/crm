@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.Role" table="role">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+    	<!-- 角色名 -->
+		<property column="name" name="name"/>
+		
+		<!-- 多对多 -->
+		<set name="resources" table="role_resource" batch-size="30" fetch="select">
+			<key column="role_id" not-null="true"/>
+			<many-to-many column="resource_id" class="cn.finance.model.Resource" />
+		</set>	
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service
+END
+ChannelService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ChannelService.java
+END
+ExpenseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ExpenseService.java
+END
+BusinessTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/BusinessTypeService.java
+END
+ContractProjectService.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ContractProjectService.java
+END
+ContractClientService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ContractClientService.java
+END
+SysInfoService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/SysInfoService.java
+END
+ServiceFeeBaseService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ServiceFeeBaseService.java
+END
+ServiceFeeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ServiceFeeService.java
+END
+ProjectService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ProjectService.java
+END
+RoleService.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/RoleService.java
+END
+BdService.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/BdService.java
+END
+PmService.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/PmService.java
+END
+MediaService.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/MediaService.java
+END
+ServiceFeeRateService.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ServiceFeeRateService.java
+END
+ContractService.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ContractService.java
+END
+UserService.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/UserService.java
+END
+SupplementHistoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/SupplementHistoryService.java
+END
+DiscountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/DiscountService.java
+END
+ChargePersonService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ChargePersonService.java
+END
+PmHistoryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/PmHistoryService.java
+END
+IndustryService.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/IndustryService.java
+END
+AccountService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/AccountService.java
+END
+FeeAdjustService.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/FeeAdjustService.java
+END
+ExchangeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ExchangeService.java
+END
+ClientService.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ClientService.java
+END
+DiscountBackService.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/DiscountBackService.java
+END
+ServiceTypeService.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/ServiceTypeService.java
+END
+TaskLogService.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/service/TaskLogService.java
+END

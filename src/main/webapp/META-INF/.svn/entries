@@ -1,0 +1,40 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/webapp/META-INF
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+MANIFEST.MF
+file
+
+
+
+
+2014-12-01T07:30:19.202000Z
+77f20d6888adfdea03f2cb654b4fae10
+2014-12-01T07:27:00.331793Z
+801
+ice
+

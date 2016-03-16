@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts
+END
+report.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/report.xml
+END
+client.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/client.xml
+END
+sys.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/sys.xml
+END
+fee.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/fee.xml
+END
+login.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/login.xml
+END
+json.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/json.xml
+END
+xls.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/xls.xml
+END
+main.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/resources/config/struts/main.xml
+END

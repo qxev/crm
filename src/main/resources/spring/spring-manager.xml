@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN" "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+<beans default-autowire="byName" default-lazy-init="true">
+	<!-- 请不要格式化,只放业务,如果需要另设配置 -->
+	<bean id="accountService" class="cn.finance.service.AccountService"/> 
+	<bean id="bdService" class="cn.finance.service.BdService"/> 
+	<bean id="businessTypeService" class="cn.finance.service.BusinessTypeService"/> 
+	<bean id="channelService" class="cn.finance.service.ChannelService"/>
+	<bean id="contractService" class="cn.finance.service.ContractService"/>
+	<bean id="contractClientService" class="cn.finance.service.ContractClientService"/>
+	<bean id="contractProjectService" class="cn.finance.service.ContractProjectService"/>
+	<bean id="chargePersonService" class="cn.finance.service.ChargePersonService"/>
+	<bean id="clientService" class="cn.finance.service.ClientService"/>
+	<bean id="discountBackService" class="cn.finance.service.DiscountBackService"/>
+	<bean id="discountService" class="cn.finance.service.DiscountService"/>
+	<bean id="expenseService" class="cn.finance.service.ExpenseService"/>
+	<bean id="exchangeService" class="cn.finance.service.ExchangeService"/>
+	<bean id="feeAdjustService" class="cn.finance.service.FeeAdjustService"/> 
+	<bean id="industryService" class="cn.finance.service.IndustryService"/> 
+	<bean id="mediaService" class="cn.finance.service.MediaService"/> 
+	<bean id="pmHistoryService" class="cn.finance.service.PmHistoryService"/>
+	<bean id="pmService" class="cn.finance.service.PmService"/> 
+	<bean id="projectService" class="cn.finance.service.ProjectService"/>
+	<bean id="serviceFeeBaseService" class="cn.finance.service.ServiceFeeBaseService"/>
+	<bean id="serviceFeeRateService" class="cn.finance.service.ServiceFeeRateService"/>
+	<bean id="serviceFeeService" class="cn.finance.service.ServiceFeeService"/>
+	<bean id="serviceTypeService" class="cn.finance.service.ServiceTypeService"/>
+	<bean id="supplementHistoryService" class="cn.finance.service.SupplementHistoryService"/> 
+	<bean id="sysInfoService" class="cn.finance.service.SysInfoService"/> 
+	<bean id="taskLogService" class="cn.finance.service.TaskLogService"/>
+	<bean id="userService" class="cn.finance.service.UserService"/>
+	<bean id="roleService" class="cn.finance.service.RoleService"/>
+	<bean id="calcAmountService" class="cn.finance.service.calc.CalcAmountService"/>
+	<bean id="calcOldService" class="cn.finance.service.calc.CalcOldService"/>
+</beans>

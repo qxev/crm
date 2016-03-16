@@ -1,0 +1,52 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/java/cn/finance/model/base
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+PersistentObject.java
+file
+
+
+
+
+2014-12-01T07:30:14.132000Z
+140da4ac4e10204894ee9442adea3680
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+PropertyFilter.java
+file
+
+
+
+
+2014-12-01T07:30:14.132000Z
+a91fdc7b6bc82d885c25ec06bdaf1ee3
+2014-12-01T07:27:00.331793Z
+801
+ice
+

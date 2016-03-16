@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.DarwinName" table="darwin_name">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+		<property column="name" name="name"/>
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

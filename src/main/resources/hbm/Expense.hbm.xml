@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.Expense" table="expense">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+    	<!-- 账户 -->
+    	<many-to-one column="account_id" name="account" class="cn.finance.model.Account" />
+    	
+		<!-- 管理媒体费 -->
+		<property column="original_manage_media" name="originalManageMedia" />
+		
+		<!-- 网盟消费 -->
+		<property column="original_net_aff" name="originalNetAff" />
+		
+		<!-- 原始管理媒体费 -->
+		<property column="manage_media" name="manageMedia" />
+		
+		<!-- 原始网盟消费 -->
+		<property column="net_aff" name="netAff" />
+
+    	<!-- 花费 -->
+		<property column="cost" name="cost" />
+
+    	<!-- 达闻成本 -->
+		<property column="darwin_cost" name="darwinCost" />
+	
+    	<!-- 折扣 -->
+		<property column="discount" name="discount" />
+
+    	<!-- 服务费 -->
+		<property column="service_fee" name="serviceFee" />
+
+    	<!-- 服务调整费 -->
+		<property column="service_fee_adjust" name="serviceFeeAdjust" />
+
+    	<!-- 收入 -->
+		<property column="revenue" name="revenue" />
+
+    	<!-- 毛利 -->
+		<property column="gross_profit" name="grossProfit" />
+	
+    	<!-- 昨天余额 -->
+		<property column="last_amount" name="lastAmount" />
+	
+		<!-- 扣除后的余额 -->
+		<property column="current_amount" name="currentAmount" />
+		
+		<!-- 花费日期 -->
+		<property column="expense_date" name="expenseDate" />
+
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

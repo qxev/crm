@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys
+END
+bdAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/bdAdd.jsp
+END
+sysAlertSet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/sysAlertSet.jsp
+END
+industryList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/industryList.jsp
+END
+bdList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/bdList.jsp
+END
+contractTemplateList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/contractTemplateList.jsp
+END
+exchangeAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/exchangeAdd.jsp
+END
+languageSet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/languageSet.jsp
+END
+roleList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/roleList.jsp
+END
+pmList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/pmList.jsp
+END
+roleSet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/roleSet.jsp
+END
+industryAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/industryAdd.jsp
+END
+editContractTemplate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/editContractTemplate.jsp
+END
+oneExchangeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/oneExchangeList.jsp
+END
+exchangeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/exchangeList.jsp
+END
+pmAdd.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/pmAdd.jsp
+END
+passwordSet.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/sys/passwordSet.jsp
+END

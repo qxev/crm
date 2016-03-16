@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm
+END
+Media.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Media.hbm.xml
+END
+Project.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Project.hbm.xml
+END
+Industry.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Industry.hbm.xml
+END
+ServiceFeeBase.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ServiceFeeBase.hbm.xml
+END
+CheckMonth.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/CheckMonth.hbm.xml
+END
+DiscountBack.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/DiscountBack.hbm.xml
+END
+ContractClient.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ContractClient.hbm.xml
+END
+ChargePerson.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ChargePerson.hbm.xml
+END
+DarwinName.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/DarwinName.hbm.xml
+END
+Client.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Client.hbm.xml
+END
+SysInfo.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/SysInfo.hbm.xml
+END
+Contract.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Contract.hbm.xml
+END
+ExchangeHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ExchangeHistory.hbm.xml
+END
+SupplementHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/SupplementHistory.hbm.xml
+END
+PmHistory.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/PmHistory.hbm.xml
+END
+Version.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Version.hbm.xml
+END
+Role.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Role.hbm.xml
+END
+User.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/User.hbm.xml
+END
+Resource.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Resource.hbm.xml
+END
+ServiceFeeRate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ServiceFeeRate.hbm.xml
+END
+ServiceFeeAdjust.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ServiceFeeAdjust.hbm.xml
+END
+Account.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Account.hbm.xml
+END
+ContractTemplate.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ContractTemplate.hbm.xml
+END
+ServiceType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ServiceType.hbm.xml
+END
+Bd.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Bd.hbm.xml
+END
+ServiceFee.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ServiceFee.hbm.xml
+END
+Exchange.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Exchange.hbm.xml
+END
+Pm.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Pm.hbm.xml
+END
+ContractProject.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/ContractProject.hbm.xml
+END
+Expense.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Expense.hbm.xml
+END
+TaskLog.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/TaskLog.hbm.xml
+END
+BusinessType.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/BusinessType.hbm.xml
+END
+Discount.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Discount.hbm.xml
+END
+SearchEngine.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/SearchEngine.hbm.xml
+END
+Channel.hbm.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/resources/hbm/Channel.hbm.xml
+END

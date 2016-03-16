@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/model
+END
+RoleBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/model/RoleBean.java
+END
+SelectboxView.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/model/SelectboxView.java
+END
+AccountView.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/model/AccountView.java
+END
+SearchView.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/model/SearchView.java
+END
+UserLoginView.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/model/UserLoginView.java
+END

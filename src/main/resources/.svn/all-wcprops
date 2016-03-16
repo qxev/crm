@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/finance/!svn/ver/801/crm/src/main/resources
+END
+struts.xml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/finance/!svn/ver/801/crm/src/main/resources/struts.xml
+END
+hibernate.properties
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/resources/hibernate.properties
+END
+dawapi@tq365.net.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/resources/dawapi@tq365.net.properties
+END
+shenchengang@yahoo.com.cn.properties
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/finance/!svn/ver/801/crm/src/main/resources/shenchengang@yahoo.com.cn.properties
+END
+quartz-app.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/resources/quartz-app.properties
+END
+cas-client.properties
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/resources/cas-client.properties
+END
+log4j.properties
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/finance/!svn/ver/801/crm/src/main/resources/log4j.properties
+END
+quartz.properties
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/finance/!svn/ver/801/crm/src/main/resources/quartz.properties
+END
+xwork-conversion.properties
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/resources/xwork-conversion.properties
+END

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="main" extends="default" namespace="/sf/main">
+		<action name="alertList" class="cn.finance.web.action.main.AlertAction" method="alertList">
+			<result name="success">/WEB-INF/content/main/alertList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="alertReset" class="cn.finance.web.action.main.AlertAction" method="alertReset">
+			<result name="success">/WEB-INF/content/main/alertList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="repaymentList" class="cn.finance.web.action.main.RepayMentAction" method="repaymentList">
+			<result name="success">/WEB-INF/content/main/repaymentList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+	</package>
+</struts>
+

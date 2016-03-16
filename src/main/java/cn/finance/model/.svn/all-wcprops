@@ -1,0 +1,239 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model
+END
+PmHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/PmHistory.java
+END
+Account.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Account.java
+END
+Contract.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Contract.java
+END
+Employee.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Employee.java
+END
+ServiceFeeAdjust.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ServiceFeeAdjust.java
+END
+Industry.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Industry.java
+END
+IdEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/IdEntity.java
+END
+DiscountBack.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/DiscountBack.java
+END
+ServiceFeeBase.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ServiceFeeBase.java
+END
+SupplementHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/SupplementHistory.java
+END
+SearchEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/SearchEngine.java
+END
+CheckMonth.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/CheckMonth.java
+END
+Bd.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Bd.java
+END
+ExchangeHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ExchangeHistory.java
+END
+Client.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Client.java
+END
+ContractProject.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ContractProject.java
+END
+BusinessType.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/BusinessType.java
+END
+Version.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Version.java
+END
+Project.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Project.java
+END
+TaskLog.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/TaskLog.java
+END
+SysInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/SysInfo.java
+END
+ChargePerson.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ChargePerson.java
+END
+Resource.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Resource.java
+END
+Exchange.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Exchange.java
+END
+JobDetailConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/JobDetailConfig.java
+END
+Expense.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Expense.java
+END
+ContractTemplate.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ContractTemplate.java
+END
+User.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/User.java
+END
+ServiceFee.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ServiceFee.java
+END
+ServiceFeeRate.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ServiceFeeRate.java
+END
+Channel.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Channel.java
+END
+Discount.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Discount.java
+END
+BaiduReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/BaiduReport.java
+END
+Media.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Media.java
+END
+Role.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Role.java
+END
+ContractClient.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ContractClient.java
+END
+ServiceType.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/ServiceType.java
+END
+DarwinName.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/DarwinName.java
+END
+Pm.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/Pm.java
+END

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="client" extends="default" namespace="/sf/client">
+		<action name="clientList" class="cn.finance.web.action.client.ClientAction" method="clientList">
+			<result name="success">/WEB-INF/content/client/clientList.jsp</result>
+			<result name="edit">/WEB-INF/content/client/editClient.jsp</result>
+			<result name="none" type="redirectAction">/sf/clientList?page.pageNo=${pageNo}</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="contractClientList" class="cn.finance.web.action.client.ContractClientAction" method="contractClientList">
+			<result name="success">/WEB-INF/content/client/contractClientList.jsp</result>
+			<result name="edit">/WEB-INF/content/client/editContractClient.jsp</result>
+			<result name="none" type="redirectAction">/sf/contractClientList?page.pageNo=${page.pageNo}</result>
+			<result name="next" type="redirectAction">/sf/contractProject!initContractProject?contractClientId=${contractClientId}</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="projectList" class="cn.finance.web.action.client.ProjectAction" method="projectList">
+			<result name="success">/WEB-INF/content/client/projectList.jsp</result>
+			<result name="other">/WEB-INF/content/client/otherProjectList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="otherProjectList" class="cn.finance.web.action.client.ProjectAction" method="otherProjectList">
+			<result name="other">/WEB-INF/content/client/otherProjectList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="contract" class="cn.finance.web.action.client.ContractAction">
+			<result name="success">/WEB-INF/content/client/contractList.jsp</result>
+			<result name="none" type="redirectAction">/sf/contract!contractList</result>
+           	<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="verifyContract" class="cn.finance.web.action.client.VerifyContractAction">
+			<result name="success">/WEB-INF/content/client/contractList.jsp</result>
+			<result name="edit">/WEB-INF/content/client/editContract.jsp</result>
+			<result name="verify">/WEB-INF/content/client/verifyContract.jsp</result>
+			<result name="view">/WEB-INF/content/client/viewContract.jsp</result>
+			<result name="none" type="redirectAction">/sf/contract!contractList?page.pageNo=${pageNo}&amp;page.filter=${filter}</result>
+           	<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="contractProject" class="cn.finance.web.action.client.ContractProjectAction">
+			<result name="success">/WEB-INF/content/client/contractProjectList.jsp</result>
+			<result name="other">/WEB-INF/content/client/otherContractProjectList.jsp</result>
+			<result name="edit">/WEB-INF/content/client/editContractProject.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="version" class="cn.finance.web.action.client.VersionAction">
+			<result name="success">/WEB-INF/content/client/versionList.jsp</result>
+			<result name="detail">/WEB-INF/content/client/detailVersion.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="initProject" class="cn.finance.web.action.client.ProjectAction" method="initProject">
+			<result name="success">/WEB-INF/content/client/editProject.jsp</result>
+			<result name="none" type="redirectAction">/sf/initProject?projectId=${projectId}</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="contactPerson" class="cn.finance.web.action.client.ContactPersonAction">
+			<result name="success">/WEB-INF/content/client/editContactPerson.jsp</result>
+			<result name="list" type="redirectAction">/sf/contractClientList!initContractClient?contractClientId=${contractClientId}&amp;page.pageNo=${pageNo}</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="mediaList" class="cn.finance.web.action.client.MediaAction" method="mediaList">
+			<result name="success">/WEB-INF/content/client/mediaList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="channelList" class="cn.finance.web.action.client.ChannelAction" method="channelList">
+			<result name="success">/WEB-INF/content/client/channelList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="accountList" class="cn.finance.web.action.client.AccountAction" method="accountList">
+			<result name="success">/WEB-INF/content/client/accountList.jsp</result>
+			<result name="init_add">/WEB-INF/content/client/accountAdd.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="editAccount" class="cn.finance.web.action.client.EditAccountAction" method="editAccount">
+			<result name="success">/WEB-INF/content/client/editAccount.jsp</result>
+			<result name="input" type="redirectAction">/sf/accountList?page.pageNo=${pageNo}&amp;page.filter=${pageFilter}</result>
+			<result name="edit" type="redirectAction">/sf/editAccount?accountId=${accountId}&amp;userAction=initAccount&amp;filter=&amp;pageNo=${pageNo}</result>
+			<result name="init_import">/WEB-INF/content/client/accountImport.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+	</package>
+</struts>
+

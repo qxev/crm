@@ -1,0 +1,55 @@
+package cn.finance.web.action.json;
+
+import java.io.UnsupportedEncodingException;
+import java.util.List;
+
+import org.springframework.jdbc.core.support.JdbcDaoSupport;
+
+import cn.finance.model.Client;
+import cn.finance.service.ClientService;
+
+import com.opensymphony.xwork2.Action;
+
+public class GetClientAction extends JdbcDaoSupport {
+
+	private static final long serialVersionUID = 1L;
+
+	private String query;
+
+	private String[] suggestions;
+
+	private ClientService clientService;
+
+	/**
+	 * 根据客户id查找所有的项目
+	 * 
+	 * @return
+	 * @throws UnsupportedEncodingException 
+	 */
+	public String execute() throws UnsupportedEncodingException {
+		List<Client> clients = clientService.getAllByClientName(query);		
+		suggestions = new String[clients.size()];
+		for (int i = 0; i < clients.size(); i++) {
+			Client client = clients.get(i);
+			suggestions[i] = client.getName();
+		}
+		return Action.SUCCESS;
+	}
+
+	public void setQuery(String query) {
+		this.query = query;
+	}
+
+	public String[] getSuggestions() {
+		return suggestions;
+	}
+
+	public String getQuery() {
+		return query;
+	}
+
+	public void setClientService(ClientService clientService) {
+		this.clientService = clientService;
+	}
+
+}

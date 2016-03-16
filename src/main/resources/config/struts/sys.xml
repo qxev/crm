@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="sys" extends="default" namespace="/sf/sys">
+		<action name="languageSet" class="cn.finance.web.action.system.UserAction" method="languageSet">
+			<result name="success">/WEB-INF/content/sys/languageSet.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="languageInit" class="cn.finance.web.action.system.UserAction" method="languageInit">
+			<result name="success">/WEB-INF/content/sys/languageSet.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="passwordSet" class="cn.finance.web.action.system.UserAction" method="passwordSet">
+		    <result name="input">/WEB-INF/content/sys/passwordSet.jsp</result>
+			<result name="success">/WEB-INF/content/sys/passwordSet.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="passwordInit" class="cn.finance.web.action.system.UserAction" method="passwordInit">
+			<result name="success">/WEB-INF/content/sys/passwordSet.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="pmList" class="cn.finance.web.action.system.PmAction" method="pmList">
+			<result name="success">/WEB-INF/content/sys/pmList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="pmAddPage" class="cn.finance.web.action.system.PmAction" method="pmAddPage">
+		    <result name="success">/WEB-INF/content/sys/pmAdd.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="pmAdd" class="cn.finance.web.action.system.PmAction" method="pmAdd">
+		    <result name="input">/WEB-INF/content/sys/pmAdd.jsp</result>
+			<result name="success" type="chain">pmList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="pmDelete" class="cn.finance.web.action.system.PmAction" method="pmDelete">
+			<result name="success" type="chain">pmList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="bdList" class="cn.finance.web.action.system.BdAction" method="bdList">
+			<result name="success">/WEB-INF/content/sys/bdList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="bdAddPage" class="cn.finance.web.action.system.BdAction" method="bdAddPage">
+		    <result name="success">/WEB-INF/content/sys/bdAdd.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="bdAdd" class="cn.finance.web.action.system.BdAction" method="bdAdd">
+		    <result name="input">/WEB-INF/content/sys/bdAdd.jsp</result>
+			<result name="success" type="chain">bdList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="bdDelete" class="cn.finance.web.action.system.BdAction" method="bdDelete">
+			<result name="success" type="chain">bdList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="industryList" class="cn.finance.web.action.system.IndustryAction" method="industryList">
+			<result name="success">/WEB-INF/content/sys/industryList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="exchangeList" class="cn.finance.web.action.system.ExchangeAction" method="exchangeList">
+			<result name="success">/WEB-INF/content/sys/exchangeList.jsp</result>
+			<result name="add">/WEB-INF/content/sys/exchangeAdd.jsp</result>
+			<result name="one">/WEB-INF/content/sys/oneExchangeList.jsp</result>
+			<result name="back" type="redirectAction">/sf/exchangeList!oneExchangeList?exchangeId=${exchangeId}&amp;page.pageNo=${pageNo}&amp;page.filter=${filter}</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="industryAddPage" class="cn.finance.web.action.system.IndustryAction" method="industryAddPage">
+		    <result name="success">/WEB-INF/content/sys/industryAdd.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="industryAdd" class="cn.finance.web.action.system.IndustryAction" method="industryAdd">
+		    <result name="input">/WEB-INF/content/sys/industryAdd.jsp</result>
+			<result name="success" type="chain">industryList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="industryDelete" class="cn.finance.web.action.system.IndustryAction" method="industryDelete">
+			<result name="success" type="chain">industryList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="contractTemplate" class="cn.finance.web.action.system.ContractTemplateAction">
+			<result name="success">/WEB-INF/content/sys/contractTemplateList.jsp</result>
+			<result name="edit">/WEB-INF/content/sys/editContractTemplate.jsp</result>
+			<result name="save" type="redirectAction">/sf/contractTemplate!list</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="role" class="cn.finance.web.action.system.RoleAction">
+			<result name="success">/WEB-INF/content/sys/roleList.jsp</result>
+			<result name="roleSet">/WEB-INF/content/sys/roleSet.jsp</result>
+			<result name="save" type="redirectAction">/sf/role!list</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="sysAlertInit" class="cn.finance.web.action.system.SysAlertAction" method="sysAlertInit">
+			<result name="success">/WEB-INF/content/sys/sysAlertSet.jsp</result>
+			<result name="input">/WEB-INF/content/sys/sysAlertSet.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+	</package>
+</struts>
+

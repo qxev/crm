@@ -1,0 +1,2 @@
+java.util.Date= cn.finance.web.converter.DateConverter
+java.math.BigDecimal= cn.finance.web.converter.BigDecimalConverter

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<decorators defaultdir="/WEB-INF/sitemesh">
+    <excludes>
+    	<pattern>/login!show.action</pattern> 
+    </excludes>
+
+    <decorator name="main" page="main.jsp">
+        <pattern>/client/*.action</pattern>
+        <pattern>/main/*.action</pattern>
+        <pattern>/report/*.action</pattern>
+        <pattern>/fee/*.action</pattern>
+        <pattern>/sys/*.action</pattern>
+    </decorator>
+</decorators>

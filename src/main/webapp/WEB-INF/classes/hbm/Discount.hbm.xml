@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.Discount" table="discount">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+    	<many-to-one column="account_id" name="account" class="cn.finance.model.Account" />
+    	
+    	<!-- 达闻折扣率 -->
+		<property column="darwin_discount" name="darwinDiscount"/>
+		
+		<!-- 项目折扣率 -->
+		<property column="project_discount" name="projectDiscount"/>
+		
+		<!-- 奖励折扣率 -->
+		<property column="bonus_discount" name="bonusDiscount"/>
+	   
+		<!-- 开始日期 -->
+		<property column="start_date" name="startDate"/>
+	
+		<!-- 开始日期 -->
+		<property column="end_date" name="endDate"/>
+
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+
+		<!-- 类型 -->
+		<property name="type"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

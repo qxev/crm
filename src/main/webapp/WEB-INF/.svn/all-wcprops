@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF
+END
+decorators.xml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/decorators.xml
+END
+app-servlet.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/app-servlet.xml
+END
+web.xml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/web.xml
+END
+sitemesh.xml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/sitemesh.xml
+END
+report.tld
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/report.tld
+END

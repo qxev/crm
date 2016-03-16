@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="json" extends="json-default">
+		<action name="jsonClient" class="cn.finance.web.action.json.GetClientAction">
+			<result type="json">
+			</result>   
+		</action>
+		<action name="jsonAllProject" class="cn.finance.web.action.json.GetAllProjectAction">
+			<result type="json">
+			</result>   
+		</action>
+		<action name="jsonContractClient" class="cn.finance.web.action.json.GetAllContractClientAction">
+			<result type="json">
+			</result>   
+		</action>
+		<action name="jsonContractProject" class="cn.finance.web.action.json.GetAllContractProjectAction">
+			<result type="json">
+			</result>   
+		</action>
+		<action name="jsonProject" class="cn.finance.web.action.json.GetProjectAction">
+			<result type="json">
+				 <param name="includeProperties">
+				 	^projects\[\d+\]\.id,
+					^projects\[\d+\]\.name
+				 </param>  
+			</result>   
+		</action>
+		<action name="jsonChannel" class="cn.finance.web.action.json.GetChannelAction">
+			<result type="json">
+				 <param name="includeProperties">
+				 	^channels\[\d+\]\.id,
+					^channels\[\d+\]\.name
+				 </param>  
+			</result>   
+		</action>
+		<action name="jsonPm" class="cn.finance.web.action.json.GetPmAction">
+			<result type="json">
+				 <param name="includeProperties">
+				 	^pms\[\d+\]\.id,
+					^pms\[\d+\]\.name
+				 </param>  
+			</result>   
+		</action>
+		<action name="jsonAccount" class="cn.finance.web.action.json.GetAccountAction">
+			<result type="json">
+				 <param name="includeProperties">
+				 	^accounts\[\d+\]\.id,
+					^accounts\[\d+\]\.nameChannel
+				 </param>  
+			</result>   
+		</action>
+		<action name="chargePerson" class="cn.finance.web.action.json.ChargePersonAction">
+			<result type="json">
+				 <param name="includeProperties">
+				 	^chargePersons\[\d+\]\.id,
+					^chargePersons\[\d+\]\.name,
+				 	^chargePersons\[\d+\]\.phone,
+					^chargePersons\[\d+\]\.address,
+				 	^chargePersons\[\d+\]\.email,
+					^chargePersons\[\d+\]\.fax,
+				 </param>  
+			</result>   
+		</action>
+	</package>
+</struts>
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="xls" extends="default" >
+		<action name="xls" class="cn.finance.web.action.xls.XlsImportAction">
+			<result name="error">/WEB-INF/content/xls/error.jsp</result>
+			<result name="success">/WEB-INF/content/xls/xls.jsp</result>
+		</action>
+	</package>
+</struts>
+

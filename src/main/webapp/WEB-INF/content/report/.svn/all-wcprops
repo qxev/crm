@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report
+END
+reportList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/reportList.jsp
+END
+serviceFeeAdjustList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/serviceFeeAdjustList.jsp
+END
+reportAccountList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/reportAccountList.jsp
+END
+serviceFeeBaseList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/serviceFeeBaseList.jsp
+END
+reportDailyList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/reportDailyList.jsp
+END
+discountBackList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/discountBackList.jsp
+END
+serviceFeeRateList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/serviceFeeRateList.jsp
+END
+serviceFeeList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/serviceFeeList.jsp
+END
+pmHistoryList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/pmHistoryList.jsp
+END
+discountList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/discountList.jsp
+END
+checkList.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/webapp/WEB-INF/content/report/checkList.jsp
+END

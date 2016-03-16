@@ -1,0 +1,42 @@
+#header1{width: 760px;margin: 0 auto;}
+#header1 #logo{width: 293px;height: 45px;float: left; }
+#header1 #logo a{display: block;	width: 291px;height: 42px;margin-top:10px;}
+#header1 #logo a span{display: none;}
+#header1 #top_nav{background-repeat: no-repeat;height: 60px;	background-position: -290px top;}
+
+#main_login{ margin:auto; left:40%; background:url(../images/login_bg.jpg) left 50px no-repeat; width:300px; color:#868686; margin-top:100px;}
+#main_login .lc{ margin-top:180px; float:left;}
+		
+#main_login .lc dt,#main_login .lc dd,#main_login .login_head, #main_login .login_body,#main_login .login_bottom,#main_login .login_sub,.l_desc a,#main_login .login_top,.login_body2 h3,#wrongshow{ background-image:url(../images/login_bg2.gif); background-repeat:no-repeat; }
+#main_login .lc dt{ height:36px; width:150px;}
+#main_login .lc .buy{ background-position:left top;}
+#main_login .lc .buy{ background-position:left -40px;}
+#main_login .lc dl{  padding-bottom:10px; margin-bottom:20px; border-bottom:1px dotted #999;}
+#main_login .lc dd{ margin:6px 0; background-position:-220px 6px;*background-position:-220px 4px; padding-left:10px;}
+		
+#main_login .rc{ margin-right:20px; float:right;}
+#main_login .login_div{ width:276px; overflow:hidden;}
+#main_login .login_head{ background-position:left -160px; line-height:24px; font-weight:bolder; padding-left:30px; font-size:14px; padding-top:6px; color:#000;}
+#main_login .login_right 
+{background:url(../images/login_right_bg.png) right top repeat-y; border-left:1px solid #f6d897; padding-right:5px;
+ }
+#main_login .login_body{ background-position:left -240px; background-repeat:repeat-x; overflow:hidden;}
+#main_login .login_bottom{ background-position:left -220px; height:15px; margin-top:0px;}
+#main_login .login_top{ background-position:left -200px; height:8px;line-height:0px; font-size:0px;}
+	    
+	    
+#main_login .login_dl{ padding-top:20px;}
+#main_login .login_dl dt{ float:left; width:80px; text-align:right; margin-bottom:10px; padding-top:4px;}
+#main_login .login_dl dd{margin:0px 0 16px 80px;}
+#main_login .login_dl dd span{  width:90px;}
+#main_login .login_dl dd span a{font-size:12px;}
+#main_login .login_dl dd input{  width:90px;}
+#main_login .login_dl dd .text{ width:150px;}
+	    
+#main_login .login_sub{ margin:0; margin-bottom:-2px; padding:0; border:0 none; width:89px; height:37px; background-position:left -80px; background-color:Transparent; cursor:pointer;}
+#main_login .forget_password{ font-size:14px;}
+.l_desc{ margin:0px; text-align:center; border-top:0px dotted #fab984; padding:0px;}
+#main_login .l_desc a{ background-position: left -120px; display:block; height:24px; width:160px; font-size:14px; color:#000; margin-top:10px; padding-top:6px; margin-left:auto; margin-right:auto;}
+.l_desc a:hover{ text-decoration:none;}
+
+

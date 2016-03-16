@@ -1,0 +1,70 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/webapp/yaml
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+add-ons
+dir
+
+central_draft.css
+file
+
+
+
+
+2014-12-01T07:30:19.249000Z
+b0f9b8d0b693322d276ba024b5d664e4
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+core
+dir
+
+markup_draft.html
+file
+
+
+
+
+2014-12-01T07:30:20.138000Z
+3b371c4de87313762a3af5e70b22e17e
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+navigation
+dir
+
+patches
+dir
+
+print
+dir
+
+screen
+dir
+

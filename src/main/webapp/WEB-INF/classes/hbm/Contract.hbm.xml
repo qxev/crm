@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.Contract" table="contract">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+
+		<many-to-one column="project_id" name="contractProject" class="cn.finance.model.ContractProject" />
+
+		<!-- 合同号 -->
+		<property column="code" name="code" />    	
+
+		<property column="lead_name" name="leadName" />    	
+
+		<property column="product" name="product" />    	
+
+		<property column="contract_start_date" name="contractStartDate" />    	
+
+		<property column="contract_end_date" name="contractEndDate" />    	
+
+		<property column="monthly_budget" name="monthlyBudget" />    	
+
+		<property column="service_fee" name="serviceFee" />    	
+
+		<property column="roi" name="roi" />    	
+
+		<property column="payment_term" name="paymentTerm" />    
+		
+		<property column="remind_time" name="remindTime" />   
+		
+		<property column="finish_time" name="finishTime" />   
+
+		<property column="depart_approve" name="departApprove" />    
+
+		<property column="finance_approve" name="financeApprove" />    
+			
+		<property column="remind_date" name="remindDate" />    
+
+		<property column="remind_clock" name="remindClock" />    
+
+		<property column="special_terms" name="specialTerms" />   
+		
+		<property column="area_id" name="areaId" />  	
+
+		<many-to-one column="contact_user_id" name="chargePerson" class="cn.finance.model.User" />
+    		
+	
+		<!-- 多对多 -->
+		<set name="searchEngines" table="contract_search" batch-size="30" fetch="select">
+			<key column="contract_id" not-null="true"/>
+			<many-to-many column="search_engine_id" class="cn.finance.model.SearchEngine" />
+		</set>	
+
+		<!-- 状态-->
+		<property column="status" name="status" />    
+		
+		<!-- 状态-->
+		<property column="version_num" name="versionNum" />    
+
+		<!-- 上次提醒时间-->
+		<property column="last_remind" name="lastRemind" />    
+	
+		<many-to-one column="create_user_id" name="createUser" class="cn.finance.model.User" />
+		
+		<!-- 后缀 -->
+		<property name="prefix"/>
+
+		<!-- 后缀 -->
+		<property column="final_prefix" name="finalPrefix"/>
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

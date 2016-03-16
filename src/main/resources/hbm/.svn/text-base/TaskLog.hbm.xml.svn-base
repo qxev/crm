@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.TaskLog" table="task_log">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+		<!-- 成功数 -->		
+		<property column="account_id" name="accountId"/>
+
+  	 	<!-- 结果: 0 成功  1 失败 -->
+		<property column="type" name="type"/>
+		
+		<!-- 执行时间 -->
+		<property column="excute_date" name="excuteDate" />
+
+		<!-- 执行时间 -->
+		<property column="error_log" name="errorLog" />
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

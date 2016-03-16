@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.Project" table="project">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+    	<many-to-one column="client_id" name="client" class="cn.finance.model.Client" />
+    	
+	   	<!-- sv3的id -->
+		<property column="sv3_id" name="sv3Id"/>
+
+   	  	<!-- 项目名 -->
+		<property column="name" name="name"/>
+		
+    	<many-to-one column="industry_id" name="industry" class="cn.finance.model.Industry" />
+
+		<!-- 项目状态 -->		
+		<property column="status" name="status"/>
+		
+		<!-- 项目下的账户 -->
+    	<set name="accounts" table="account" lazy="true" inverse="true" cascade="all" >
+			<key column="project_id" />
+			<one-to-many class="cn.finance.model.Account" />
+		</set>
+		
+		<!-- 多对多 -->
+		<set name="bds" table="project_bd" batch-size="30" fetch="select">
+			<key column="project_id" not-null="true"/>
+			<many-to-many column="bd_id" class="cn.finance.model.Bd" />
+		</set>
+		
+		<!-- 多对多 -->
+		<set name="pms" table="project_pm" fetch="select">
+			<key column="project_id" not-null="true"/>
+			<many-to-many column="pm_id" class="cn.finance.model.Pm"/>
+		</set>
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

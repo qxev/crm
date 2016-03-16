@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="fee" extends="default" namespace="/sf/fee">
+		<action name="initFee" class="cn.finance.web.action.fee.FeeAction" method="initFee">
+			<result name="success">/WEB-INF/content/fee/feeAdd.jsp</result>
+			<result name="none">/WEB-INF/content/fee/editSupplement.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="serviceList" class="cn.finance.web.action.fee.ServiceAction" method="serviceList">
+			<result name="success">/WEB-INF/content/fee/serviceList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="serviceAdjust" class="cn.finance.web.action.fee.ServiceAction" method="serviceAdjust">
+			<result name="success" type="chain">serviceList</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="payAmountList" class="cn.finance.web.action.fee.PayAmountAction" method="payAmountList">
+			<result name="success">/WEB-INF/content/fee/payAmountList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="totalAmountList" class="cn.finance.web.action.fee.TotalAmountAction" method="totalAmountList">
+			<result name="success">/WEB-INF/content/fee/totalAmountList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="seAmountList" class="cn.finance.web.action.fee.SeAmountHistoryAction" method="seAmountList">
+			<result name="success">/WEB-INF/content/fee/seAmountList.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="seAmountListByProject" class="cn.finance.web.action.fee.SeAmountHistoryAction" method="seAmountListByProject">
+			<result name="success">/WEB-INF/content/fee/seAmountListByProject.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="seAmountListByAccount" class="cn.finance.web.action.fee.SeAmountHistoryAction" method="seAmountListByAccount">
+			<result name="success">/WEB-INF/content/fee/seAmountListByAccount.jsp</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="editFee" class="cn.finance.web.action.fee.FeeAction" method="editFee">
+			<result name="success" type="redirectAction">/sf/totalAmountList?page.pageNo=${pageNo}&amp;page.filter=${filter}</result>
+			<result name="none" type="redirectAction">/sf/payAmountList?page.pageNo=${pageNo}&amp;page.filter=${filter}</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+		
+		<action name="deleteFee" class="cn.finance.web.action.fee.FeeAction" method="deleteFee">
+			<result name="success" type="redirectAction">/sf/totalAmountList?page.pageNo=${pageNo}&amp;page.filter=${filter}</result>
+			<result name="none" type="redirectAction">/sf/payAmountList?page.pageNo=${pageNo}&amp;page.filter=${filter}</result>
+			<interceptor-ref name="financeStack" /> 
+		</action>
+	</package>
+</struts>
+

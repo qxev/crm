@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.ui.theme" value="simple" /> 
+	<constant name="struts.multipart.maxSize" value="90000000"/>
+	<package name="default" extends="struts-default" >
+	
+ 		<interceptors>
+ 			<interceptor name="redirectInterceptor"
+					class="cn.finance.web.interceptor.RedirectMessageInterceptor" />
+			<interceptor name="loginInterceptor"
+					class="cn.finance.web.interceptor.UserLoginInterceptor" />
+			<interceptor name="userSessionInterceptor"
+					class="cn.finance.web.interceptor.UserSessionInterceptor" />
+				<!-- 定义了一个名为authority的拦截器 -->
+				<interceptor-stack name="financeStack">
+					<interceptor-ref name="loginInterceptor" />
+					<interceptor-ref name="userSessionInterceptor" />
+					<interceptor-ref name="redirectInterceptor" />   
+ 					<interceptor-ref name="defaultStack" />
+				</interceptor-stack>
+		</interceptors>
+	
+			<!-- 定义全局Result -->
+		<global-results>
+			<result name="index" type="redirectAction">centerLogin!login</result>
+		</global-results>
+		
+		<action name="autocompleter" class="com.jgeppert.struts2.jquery.showcase.Autocompleter1">
+			<result name="success">/pages/autocompleter1.jsp</result>
+		</action>
+		
+		
+	</package>
+  	<include file="config/struts/*"></include>
+</struts>
+

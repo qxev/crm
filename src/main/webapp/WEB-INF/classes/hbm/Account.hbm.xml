@@ -1,0 +1,158 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.Account" table="account">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+    	<many-to-one column="project_id" name="project" class="cn.finance.model.Project" />
+    	
+    	<many-to-one column="channel_id" name="channel" class="cn.finance.model.Channel" />
+    	
+	   	<!-- sv3的id -->
+		<property column="sv3_id" name="sv3Id"/>
+
+	   	<!-- 线上密码 -->
+		<property column="online_password" name="onlinePassword"/>
+	
+	   	<!-- 账户名 -->
+		<property column="name" name="name"/>
+	
+	   	<!-- 账户类型 -->
+		<property column="type" name="type"/>
+	
+	   	<!-- 客户状态 -->
+		<property column="status" name="status"/>
+
+	   	<!-- 服务费类型 -->
+		<property column="service_type" name="serviceType"/>
+	
+		<!-- api账户 -->
+		<property column="api_account" name="apiAccount"/>
+	
+	   	<!-- 冲值类型 -->
+		<property column="supplement_type" name="supplementType"/>
+	
+	   	<!-- 客户余额 -->
+		<property column="client_balance" name="clientBalance"/>
+
+	   	<!-- 达闻余额 -->
+		<property column="darwin_balance" name="darwinBalance"/>
+		
+		<!-- 总余额 -->
+		<property column="total_balance" name="totalBalance"/>
+		
+		<!-- 过去N天最大消费 -->
+		<property column="past_max_cost" name="pastMaxCost"/>
+		
+		<!-- 过去N天最小消费 -->
+		<property column="past_min_cost" name="pastMinCost"/>
+
+		<!-- 可用天数 -->
+		<property column="remain_days" name="remainDays"/>
+
+		<!-- 过去N天最大消费 -->
+		<property column="max_suggest_add" name="maxSuggestAdd"/>
+
+		<!-- 过去N天最大消费 -->
+		<property column="min_suggest_add" name="minSuggestAdd"/>
+
+		<!-- 最大可用天数 -->
+		<property column="max_remain_days" name="maxRemainDays"/>
+
+		<!-- 最小可用天数 -->
+		<property column="min_remain_days" name="minRemainDays"/>
+
+	   	<!-- 预警提醒 -->
+		<property column="alert" name="alert"/>
+
+	   	<!-- 日消费额 -->
+		<property column="daily_budget" name="dailyBudget"/>
+	
+		<property column="get_data" name="getData"/>
+		
+		<property column="google_online_id" name="googleOnlineId"/>
+
+		<property column="last_supplement" name="lastSupplement"/>
+
+		<property column="last_supple_date" name="lastSuppleDate"/>
+
+		<property column="current_pms" name="currentPms"/>
+
+		<property column="current_discount" name="currentDiscount"/>
+
+		<property column="current_aff_discount" name="currentAffDiscount"/>
+
+		<property column="current_discount_back" name="currentDiscountBack"/>
+
+		<property column="current_service_fee" name="currentServiceFee"/>
+	
+		<property column="current_service_fee_rate" name="currentServiceFeeRate"/>
+
+		<property column="current_aff_service_fee" name="currentAffServiceFee"/>
+	
+		<property column="current_aff_service_fee_rate" name="currentAffServiceFeeRate"/>
+
+		<!-- 折扣率历史 -->
+    	<set name="discounts" table="discount" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.Discount" />
+		</set>
+
+		<!-- 折扣率返还历史 -->
+    	<set name="discountBacks" table="discount_back" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.DiscountBack" />
+		</set>
+		
+		<!-- 服务费历史 -->
+    	<set name="serviceFees" table="service_fee" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.ServiceFee" />
+		</set>
+		
+		<!-- 服务类型历史 -->
+    	<set name="serviceTypes" table="service_type" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.ServiceType" />
+		</set>
+
+		<!-- 服务费率历史 -->
+    	<set name="serviceFeeRates" table="service_fee_rate" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.ServiceFeeRate" />
+		</set>
+		
+		<!-- 服务费率历史 -->
+    	<set name="serviceFeeBases" table="service_fee_rate" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.ServiceFeeBase" />
+		</set>
+		
+		<!-- SEM分析师负责的项目历史时间表 -->
+    	<set name="pmHistorys" table="pm_history" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.PmHistory" />
+		</set>
+		
+		<!-- 账户的消费历史 -->
+    	<set name="expenses" table="expense" lazy="true" inverse="true" cascade="all" >
+			<key column="account_id" />
+			<one-to-many class="cn.finance.model.Expense" />
+		</set>
+
+   	   	<many-to-one column="exchange_id" name="exchange" class="cn.finance.model.Exchange" />
+
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean
+END
+ExchangeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean/ExchangeBean.java
+END
+SeBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean/SeBean.java
+END
+ServiceAdjustBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean/ServiceAdjustBean.java
+END
+ReportBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean/ReportBean.java
+END
+ResultBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean/ResultBean.java
+END
+CheckBean.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/model/bean/CheckBean.java
+END

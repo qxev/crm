@@ -1,0 +1,67 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/webapp/yaml/navigation
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+images
+dir
+
+nav_shinybuttons.css
+file
+
+
+
+
+2014-12-01T07:30:19.280000Z
+78ea20fe55e340601ebe814993d9e76d
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+nav_slidingdoor.css
+file
+
+
+
+
+2014-12-01T07:30:19.920000Z
+fdb2c27b79b5cb5e1df9c158e04f8835
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+nav_vlist.css
+file
+
+
+
+
+2014-12-01T07:30:19.920000Z
+bcca9ef7a662dbe4a507a52a1f68bbd5
+2014-12-01T07:27:00.331793Z
+801
+ice
+

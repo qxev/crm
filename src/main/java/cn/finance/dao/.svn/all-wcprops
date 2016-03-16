@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao
+END
+ContractDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ContractDao.java
+END
+RoleDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/RoleDao.java
+END
+SupplementHistoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/SupplementHistoryDao.java
+END
+PmHistoryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/PmHistoryDao.java
+END
+ChannelDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ChannelDao.java
+END
+ProjectDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ProjectDao.java
+END
+UserDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/UserDao.java
+END
+IndustryDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/IndustryDao.java
+END
+ServiceFeeRateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ServiceFeeRateDao.java
+END
+AccountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/AccountDao.java
+END
+ContractProjectDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ContractProjectDao.java
+END
+ExchangeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ExchangeDao.java
+END
+BdDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/BdDao.java
+END
+ServiceFeeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ServiceFeeDao.java
+END
+ServiceTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ServiceTypeDao.java
+END
+ContractClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ContractClientDao.java
+END
+ChargePersonDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ChargePersonDao.java
+END
+FeeAdjustDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/FeeAdjustDao.java
+END
+ClientDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ClientDao.java
+END
+ExpenseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ExpenseDao.java
+END
+BusinessTypeDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/BusinessTypeDao.java
+END
+DiscountDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/DiscountDao.java
+END
+TaskLogDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/TaskLogDao.java
+END
+MediaDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/MediaDao.java
+END
+ServiceFeeBaseDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/ServiceFeeBaseDao.java
+END
+DiscountBackDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/DiscountBackDao.java
+END
+SysInfoDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/SysInfoDao.java
+END
+PmDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/dao/PmDao.java
+END

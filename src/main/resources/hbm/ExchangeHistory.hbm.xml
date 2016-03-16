@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.ExchangeHistory" table="exchange_history">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+
+    	<many-to-one column="exchange_id" name="exchange" class="cn.finance.model.Exchange" />
+    	
+		<!-- 汇率日期 -->
+		<property column="exchange_date" name="exchangeDate"/>
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+
+		<!-- 值  -->
+		<property column="value" name="value"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

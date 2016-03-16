@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="report" extends="default" namespace="/sf/report">
+	
+		<action name="reportList" class="cn.finance.web.action.report.ReportAction" method="reportList">
+			<result name="success">/WEB-INF/content/report/reportList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		
+		<action name="reportDailyList" class="cn.finance.web.action.report.ReportDailyAction" method="reportList">
+			<result name="success">/WEB-INF/content/report/reportDailyList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		
+		<action name="reportAccountList" class="cn.finance.web.action.report.ReportAction" method="reportAccountList">
+			<result name="success">/WEB-INF/content/report/reportAccountList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+
+		<action name="pmHistoryList" class="cn.finance.web.action.report.PmHistoryAction" method="pmHistoryList">
+			<result name="success">/WEB-INF/content/report/pmHistoryList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+
+		<action name="pmHistoryList" class="cn.finance.web.action.report.PmHistoryAction" method="pmHistoryList">
+			<result name="success">/WEB-INF/content/report/pmHistoryList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="discountList" class="cn.finance.web.action.report.DiscountAction" method="discountList">
+			<result name="success">/WEB-INF/content/report/discountList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="checkList" class="cn.finance.web.action.report.CheckAction" method="checkList">
+			<result name="success">/WEB-INF/content/report/checkList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="discountBackList" class="cn.finance.web.action.report.DiscountBackAction" method="discountBackList">
+			<result name="success">/WEB-INF/content/report/discountBackList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="serviceFeeList" class="cn.finance.web.action.report.ServiceFeeAction" method="serviceFeeList">
+			<result name="success">/WEB-INF/content/report/serviceFeeList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="serviceFeeRateList" class="cn.finance.web.action.report.ServiceFeeRateAction" method="serviceFeeRateList">
+			<result name="success">/WEB-INF/content/report/serviceFeeRateList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="serviceFeeBaseList" class="cn.finance.web.action.report.ServiceFeeBaseAction" method="serviceFeeBaseList">
+			<result name="success">/WEB-INF/content/report/serviceFeeBaseList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+		<action name="serviceFeeAdjustList" class="cn.finance.web.action.report.ServiceFeeAdjustAction" method="serviceFeeAdjustList">
+			<result name="success">/WEB-INF/content/report/serviceFeeAdjustList.jsp</result>
+			<interceptor-ref name="financeStack" />   
+		</action>
+	</package>
+</struts>
+

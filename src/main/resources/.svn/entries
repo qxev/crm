@@ -1,0 +1,151 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/resources
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+cas-client.properties
+file
+
+
+
+
+2014-12-01T07:30:19.062000Z
+f5fa7d39435e65117740c30188570caf
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+cn
+dir
+
+config
+dir
+
+dawapi@tq365.net.properties
+file
+
+
+
+
+2014-12-01T07:30:19.046000Z
+5e5a0ae51df8679f80aae3f2a9945787
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+ehcache
+dir
+
+hbm
+dir
+
+hibernate.properties
+file
+
+
+
+
+2014-12-01T07:30:19.062000Z
+4deb7f955f8b4763fb84dc991ff220b7
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+log4j.properties
+file
+
+
+
+
+2014-12-01T07:30:19.062000Z
+5151bb9cca97759114e1e12225ac6e51
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+quartz-app.properties
+file
+
+
+
+
+2014-12-01T07:30:18.188000Z
+fae044308e13cd76f5ea1ec819678193
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+quartz.properties
+file
+
+
+
+
+2014-12-01T07:30:18.407000Z
+f847de69cc47cb28154381377274b3a5
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+shenchengang@yahoo.com.cn.properties
+file
+
+
+
+
+2014-12-01T07:30:18.204000Z
+a374c354af678e006825fe08dd8be56e
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+spring
+dir
+
+struts.xml
+file
+
+
+
+
+2014-12-01T07:30:18.485000Z
+ebbb23cd1d6b85ccea72edf1b2f07b05
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+xwork-conversion.properties
+file
+
+
+
+
+2014-12-01T07:30:19.062000Z
+1111f67950ce9aa3fad7c7567d498d7c
+2014-12-01T07:27:00.331793Z
+801
+ice
+

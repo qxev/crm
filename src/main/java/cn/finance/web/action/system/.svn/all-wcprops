@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system
+END
+ExchangeAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/ExchangeAction.java
+END
+SysAlertAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/SysAlertAction.java
+END
+PmAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/PmAction.java
+END
+RoleAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/RoleAction.java
+END
+ContractTemplateAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/ContractTemplateAction.java
+END
+BdAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/BdAction.java
+END
+IndustryAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/IndustryAction.java
+END
+UserAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/web/action/system/UserAction.java
+END

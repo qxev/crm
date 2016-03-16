@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+      "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="cn.finance.model">
+    <class name="cn.finance.model.ContractProject" table="contract_project">
+		<id name="id" column="id" type="java.lang.Integer" unsaved-value="null">
+      		<generator class="native"/>
+    	</id>
+    	
+    	<many-to-one column="client_id" name="contractClient" class="cn.finance.model.ContractClient" />
+    	
+    	<many-to-one column="business_type_id" name="businessType" class="cn.finance.model.BusinessType" />
+
+   	  	<!-- 项目名 -->
+		<property column="name" name="name"/>
+		
+    	<many-to-one column="industry_id" name="industry" class="cn.finance.model.Industry" />
+    	
+    	<many-to-one column="darwin_name_id" name="darwinName" class="cn.finance.model.DarwinName" />
+		
+		<many-to-one column="pm_id" name="pm" class="cn.finance.model.Pm" />
+		
+		<many-to-one column="bd_id" name="bd" class="cn.finance.model.Bd" />
+		
+		<!-- 是否已删除标记 -->
+		<property name="deleted"/>
+		
+		<!-- 创建时间 -->
+		<property column="create_at" name="createAt" />
+		
+		<!-- 最后一次更新时间 -->
+		<property column="update_at" name="updateAt" />
+	</class>
+</hibernate-mapping>

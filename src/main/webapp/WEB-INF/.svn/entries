@@ -1,0 +1,103 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/webapp/WEB-INF
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+app-servlet.xml
+file
+
+
+
+
+2014-12-01T07:30:23.011000Z
+ce797aadad44d6402286a5159e98bee5
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+content
+dir
+
+decorators.xml
+file
+
+
+
+
+2014-12-01T07:30:23.276000Z
+12aec456fd7e818660aeb5e56d9756d1
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+report.tld
+file
+
+
+
+
+2014-12-01T07:30:25.776000Z
+8185cd46eb5e134d59267f1b7716c497
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+services
+dir
+
+sitemesh
+dir
+
+sitemesh.xml
+file
+
+
+
+
+2014-12-01T07:30:23.011000Z
+6b143c011591d47f8455caf71a58722d
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+template
+dir
+
+views
+dir
+
+web.xml
+file
+
+
+
+
+2014-12-01T07:30:25.776000Z
+fba83a50f5b0808be08380534faf482d
+2014-12-01T07:27:00.331793Z
+801
+ice
+

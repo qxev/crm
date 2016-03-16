@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/modules/orm/hibernate
+END
+HibernateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/modules/orm/hibernate/HibernateDao.java
+END
+SimpleHibernateDao.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/modules/orm/hibernate/SimpleHibernateDao.java
+END
+HibernateWebUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/finance/!svn/ver/801/crm/src/main/java/cn/finance/modules/orm/hibernate/HibernateWebUtils.java
+END

@@ -1,0 +1,52 @@
+8
+
+dir
+801
+http://svn.dmclick.cn/repos/finance/crm/src/main/webapp/yaml/core/js
+http://svn.dmclick.cn/repos/finance
+
+
+
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+5b6dd854-bf9c-11de-930f-c599c7c39c07
+
+webkit-focusfix.js
+file
+
+
+
+
+2014-12-01T07:30:21.168000Z
+c3114a02691826f29a1fb9bda326585e
+2014-12-01T07:27:00.331793Z
+801
+ice
+
+yaml-focusfix.js
+file
+
+
+
+
+2014-12-01T07:30:21.168000Z
+f05a52fedadaf3dcf31d971808b17528
+2014-12-01T07:27:00.331793Z
+801
+ice
+

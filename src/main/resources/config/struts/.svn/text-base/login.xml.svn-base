@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<package name="login" extends="default" >
+		<action name="login" class="cn.finance.web.action.UserLoginAction">
+			<result name="finance" type="redirectAction">sf/main/alertList.action</result>
+			<result name="success" type="redirectAction">sf/client/contract!contractList?contractId=${userLoginView.contractId}</result>
+			<result name="input">/WEB-INF/content/login/login.jsp</result>
+			<result name="error">/WEB-INF/content/login/login.jsp</result>
+		</action>
+		<action name="centerLogin" class="cn.finance.web.action.CenterLoginAction">
+			<result name="finance" type="redirectAction">sf/main/alertList.action</result>
+			<result name="success" type="redirectAction">sf/client/contract!contractList.action</result>
+			<result name="input">/WEB-INF/content/login/login.jsp</result>
+			<result name="error">/WEB-INF/content/login/login.jsp</result>
+		</action>
+		<action name="logout" class="cn.finance.web.action.UserLoginAction" method="logout">
+			<result name="success">/WEB-INF/content/login/login.jsp</result>
+		</action>
+		<action name="view" class="cn.finance.web.action.client.ContractAction" method="view">
+			<result name="view">/WEB-INF/content/client/viewContract.jsp</result>
+		</action>
+		
+		<action name="autocompleter1" class="cn.finance.web.action.Autocompleter1">
+			<result name="success">/pages/autocompleter1.jsp</result>
+		</action>
+	</package>
+</struts>
+
